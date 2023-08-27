@@ -68,13 +68,13 @@
                 style="@style/Widget.Custom.FloatingActionButton"/>
 
         <com.google.android.material.bottomappbar.BottomAppBar
-                android:id="@+id/bottom_app_bar"
-                android:layout_gravity="bottom"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/Widget.Custom.BottomAppBar"
-                app:menu="@menu/main_bottom"
-                app:fabAlignmentMode="end"/>
+            android:id="@+id/bottom_app_bar"
+            style="@style/Widget.Custom.BottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:fabAlignmentMode="end"
+            app:menu="@menu/main_bottom" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

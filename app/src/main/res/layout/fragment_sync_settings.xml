@@ -21,23 +21,22 @@
                 android:layout_height="wrap_content">
 
             <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardBackgroundColor="?attr/colorSecondary"
+                app:cardCornerRadius="18dp"
+                app:contentPadding="16dp">
+
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    app:contentPadding="16dp"
-                    app:cardElevation="8dp"
-                    app:cardBackgroundColor="?attr/colorSurface"
-                    app:cardCornerRadius="16dp">
-                <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@null"
-                        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
-                        android:drawablePadding="8dp"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:text="@string/preferences_sync_experimental_warning"
-                        app:drawableStartCompat="@drawable/ic_about"/>
+                    android:layout_gravity="center"
+                    android:drawablePadding="8dp"
+                    android:gravity="center"
+                    android:text="@string/preferences_sync_experimental_warning"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:drawableStartCompat="@drawable/ic_about" />
             </com.google.android.material.card.MaterialCardView>
 
 
@@ -81,14 +80,15 @@
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                 <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="?attr/colorOutline"/>
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"/>
 
                 <TextView
                         android:text="@string/preferences_cloud_service_nextcloud"
                         android:textStyle="bold"
+                        android:textSize="17sp"
                         android:fontFamily="@font/inter_font_family"
                         android:textColor="?attr/colorPrimary"
                         android:padding="16dp"

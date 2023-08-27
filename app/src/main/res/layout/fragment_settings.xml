@@ -32,6 +32,7 @@
             <TextView
                     android:text="@string/preferences_header_general"
                     android:textStyle="bold"
+                    android:textSize="17sp"
                     android:fontFamily="@font/inter_font_family"
                     android:textColor="?attr/colorPrimary"
                     android:padding="16dp"
@@ -59,14 +60,18 @@
                     app:text="@string/preferences_color_scheme"
                     app:iconSrc="@drawable/ic_color"/>
 
+<!--            <View-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="1dp"-->
+<!--                    android:background="?attr/colorOutline"/>-->
             <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="?attr/colorOutline"/>
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
 
             <TextView
                     android:text="@string/preferences_header_view"
                     android:textStyle="bold"
+                android:textSize="17sp"
                     android:fontFamily="@font/inter_font_family"
                     android:textColor="?attr/colorPrimary"
                     android:padding="16dp"
@@ -115,14 +120,18 @@
                     app:text="@string/preferences_time_format"
                     app:iconSrc="@drawable/ic_time"/>
 
+<!--            <View-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="1dp"-->
+<!--                    android:background="?attr/colorOutline"/>-->
             <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="?attr/colorOutline"/>
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
 
             <TextView
                     android:text="@string/preferences_header_other"
                     android:textStyle="bold"
+                android:textSize="17sp"
                     android:fontFamily="@font/inter_font_family"
                     android:textColor="?attr/colorPrimary"
                     android:padding="16dp"
@@ -150,14 +159,18 @@
                     app:text="@string/preferences_note_deletion_time"
                     app:iconSrc="@drawable/ic_bin"/>
 
+<!--            <View-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="1dp"-->
+<!--                    android:background="?attr/colorOutline"/>-->
             <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="?attr/colorOutline"/>
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
 
             <TextView
                     android:text="@string/preferences_header_backup"
                     android:textStyle="bold"
+                android:textSize="17sp"
                     android:fontFamily="@font/inter_font_family"
                     android:textColor="?attr/colorPrimary"
                     android:padding="16dp"
@@ -189,12 +202,12 @@
 
             <View
                     android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="?attr/colorOutline"/>
+                    android:layout_height="30dp"/>
 
             <TextView
                     android:text="@string/preferences_header_syncing"
                     android:textStyle="bold"
+                android:textSize="17sp"
                     android:fontFamily="@font/inter_font_family"
                     android:textColor="?attr/colorPrimary"
                     android:padding="16dp"

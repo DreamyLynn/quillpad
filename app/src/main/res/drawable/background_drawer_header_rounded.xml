@@ -6,8 +6,8 @@
             <solid
                     android:color="?attr/colorDrawerBackground"/>
             <corners
-                    android:topLeftRadius="18dp"
-                    android:topRightRadius="18dp"/>
+                    android:topLeftRadius="30dp"
+                    android:topRightRadius="30dp"/>
         </shape>
     </item>
 </layer-list>

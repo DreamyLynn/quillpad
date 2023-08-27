@@ -155,6 +155,7 @@ open class MainFragment : AbstractNotesFragment(R.layout.fragment_main) {
         MainFragmentDirections.actionMainToSearch().setSearchQuery(searchQuery)
 
     override fun onNoteClick(noteId: Long, position: Int, viewBinding: LayoutNoteBinding) {
+//        viewBinding.root.setBackgroundColor(Color.BLACK);
         goToEditor(noteId, sharedElement = viewBinding.root, fromPosition = position)
     }
 

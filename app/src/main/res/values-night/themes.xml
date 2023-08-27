@@ -3,49 +3,49 @@
     <!-- Base application theme. -->
     <style name="BaseAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- General -->
-        <item name="colorBackground">#121212</item>
-        <item name="colorShadow">#24000000</item>
-        <item name="colorOutline">#1EFFFFFF</item>
+        <item name="colorBackground">@color/navBarDark</item>
+<!--        <item name="colorShadow">#24000000</item>-->
+        <item name="colorShadow">@android:color/transparent</item>
+<!--        <item name="colorOutline">@android:color/transparent</item>-->
+<!--        <item name="colorOutline">@color/navBarDark</item>-->
+        <item name="colorOutline">@color/systemPrimary</item>
+
         <item name="colorTextOverlay">#99000000</item>
 
         <!-- App bars -->
-        <item name="colorBottomAppBarBackground">#202020</item>
-
-
-        <item name="android:navigationBarColor">
-            @android:color/transparent
-        </item>
-
-        <item name="android:statusBarColor">
-            @android:color/transparent
-        </item>
+<!--        promeniti u varijablu colorBackground -->
+<!--        <item name="colorBottomAppBarBackground">#1b1b1f</item>-->
+        <item name="colorBottomAppBarBackground">@color/navBarDark</item>
+        <item name="android:navigationBarColor">@color/navBarDark</item>
+        <item name="android:statusBarColor">@color/navBarDark</item>
 
         <!-- Navigation -->
-        <item name="colorDrawerBackground">#202020</item>
-        <item name="colorDrawerItemRipple">#59FFFFFF</item>
+        <item name="colorDrawerBackground">#303034</item>
+        <item name="colorDrawerItemRipple">#3a3a3a</item>
         <item name="colorDrawerItemIconSelected">@color/state_drawer_selected_item_icon_color</item>
         <item name="colorDrawerItemTextSelected">@color/state_drawer_selected_item_color</item>
         <item name="drawableDrawerItemBackground">@drawable/state_drawer_item_background</item>
 
-        <item name="colorNoteText">#FFFFFF</item>
-        <item name="colorNoteIndicator">#B3FFFFFF</item>
+        <item name="colorNoteText">#dedede</item>
+        <item name="colorNoteIndicator">#3a3a3a</item>
         <item name="colorAttachmentIndicator">#89000000</item>
-        <item name="colorTaskDone">#80FFFFFF</item>
-        <item name="colorMarkdownTask">#80FFFFFF</item>
+        <item name="colorTaskDone">@color/systemPrimary</item>
+        <item name="colorMarkdownTask">@color/systemSecondary</item>
         <item name="colorMediaControlsBackground">#CC000000</item>
 
-        <item name="colorTaskSwipe">#CCF44336</item>
+        <item name="colorTaskSwipe">#CC9E7976</item>
         <item name="colorHighlightMask">#1FFFFFFF</item>
 
-        <item name="colorNoteDefault">#1C1C1C</item>
-        <item name="colorNoteGreen">#38573A</item>
-        <item name="colorNotePink">#5C2940</item>
-        <item name="colorNoteBlue">#273749</item>
-        <item name="colorNoteRed">#6A3333</item>
-        <item name="colorNoteOrange">#65452A</item>
-        <item name="colorNoteYellow">#68643A</item>
+<!--        <item name="colorNoteDefault">#242424</item>-->
+        <item name="colorNoteDefault">#303034</item>
+        <item name="colorNoteGreen">#72BE74</item>
+        <item name="colorNotePink">#A57189</item>
+        <item name="colorNoteBlue">#4A7EB5</item>
+        <item name="colorNoteRed">#884B43</item>
+        <item name="colorNoteOrange">#A57C66</item>
+        <item name="colorNoteYellow">#CDC578</item>
 
-        <item name="colorNoteTextHighlight">#96FFFF00</item>
+        <item name="colorNoteTextHighlight">#BAC48766</item>
 
         <item name="popupTheme">@style/Widget.Custom.PopupMenu</item>
         <item name="materialAlertDialogTheme">@style/DialogTheme</item>
@@ -62,7 +62,6 @@
 
         <item name="colorDrawerHeaderBackground">#3390CAF9</item>
         <item name="colorPrimaryTranscluent">#2690CAF9</item>
-
     </style>
 
     <style name="Green">
@@ -72,7 +71,6 @@
 
         <item name="colorDrawerHeaderBackground">#33C5E1A5</item>
         <item name="colorPrimaryTranscluent">#26C5E1A5</item>
-
     </style>
 
     <style name="Pink">
@@ -82,7 +80,6 @@
 
         <item name="colorDrawerHeaderBackground">#33F48FB1</item>
         <item name="colorPrimaryTranscluent">#26F48FB1</item>
-
     </style>
 
     <style name="Orange">
@@ -92,7 +89,6 @@
 
         <item name="colorDrawerHeaderBackground">#33FFCC80</item>
         <item name="colorPrimaryTranscluent">#26FFCC80</item>
-
     </style>
 
     <style name="Purple">
@@ -102,6 +98,5 @@
 
         <item name="colorDrawerHeaderBackground">#33B39DDB</item>
         <item name="colorPrimaryTranscluent">#26B39DDB</item>
-
     </style>
 </resources>

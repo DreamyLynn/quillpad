@@ -57,6 +57,7 @@
 
     <style name="TextAppearance.Custom.NoteBody" parent="TextAppearance.MaterialComponents.Body1">
         <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingMultiplier">10</item>
         <item name="android:textColor">?attr/colorNoteText</item>
     </style>
 
@@ -68,6 +69,7 @@
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">1</item>
         <item name="android:textColor">?attr/colorNoteText</item>
+<!--        <item name="android:textColor">?attr/colorBackground</item>-->
         <item name="android:textSize">13sp</item>
         <item name="android:background">@drawable/background_note_tag</item>
         <item name="android:paddingTop">4dp</item>
@@ -80,11 +82,12 @@
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">1</item>
         <item name="android:textColor">?attr/colorNoteText</item>
+<!--        <item name="android:textColor">?attr/colorBackground</item>-->
         <item name="android:background">@drawable/background_notebook_chip</item>
-        <item name="android:paddingTop">4dp</item>
-        <item name="android:paddingBottom">4dp</item>
-        <item name="android:paddingStart">10dp</item>
-        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
     </style>
 
     <style name="DialogTheme" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
